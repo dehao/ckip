@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}
+includedir=${pcfiledir}/include
+
+
+Name: libXML
+Version: 2.9.1
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2  -lpthread -lz -L/Users/dehao/github/ckip/lxml-3.3.4/build/tmp/libxml2/lib -liconv -lm 
+Cflags: -I${includedir} -I${includedir}/libxml2 -I/Users/dehao/github/ckip/lxml-3.3.4/build/tmp/libxml2/include 

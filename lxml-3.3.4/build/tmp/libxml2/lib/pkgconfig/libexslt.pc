@@ -1,0 +1,12 @@
+prefix=/Users/dehao/github/ckip/lxml-3.3.4/build/tmp/libxml2
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+
+Name: libexslt
+Version: 0.8.17
+Description: EXSLT Extension library
+Requires: libxml-2.0
+Libs: -L${libdir} -lexslt -lxslt  -L/Users/dehao/github/ckip/lxml-3.3.4/build/tmp/libxml2/lib -lxml2 -lz -lpthread -L/Users/dehao/github/ckip/lxml-3.3.4/build/tmp/libxml2/lib -liconv -lm  
+Cflags: -I${includedir}
